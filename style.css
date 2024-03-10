@@ -260,4 +260,14 @@ footer i:hover,
   .footer-container {
     padding-bottom: 40px;
   }
+  .i {
+    max-height: 20px;
+    max-width: 20px;
+    border: 1px solid #808080;
+    border-radius: 150px;
+    padding: 20px;
+  }
+  footer i::before {
+    font-size: 1rem;
+  }
 }
